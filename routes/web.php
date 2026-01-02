@@ -21,7 +21,11 @@ Route::middleware('auth')->group(function () {
 
 });
 
-Route::middleware(['auth', 'permission:users.edit'])->group(function () {
+// Route::middleware(['auth', 'permission:users.edit'])->group(function () {
+//         Route::resource('users',App\Http\Controllers\UsersController::class);
+// });
+
+Route::middleware(['auth'])->group(function () {
         Route::resource('users',App\Http\Controllers\UsersController::class);
 });
 

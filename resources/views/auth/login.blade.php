@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
+@section('title','Login')
+
 @section('content')
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
     <div class="col-md-6 col-lg-5">
         <div class="card shadow border-0 rounded-3">
             <div class="card-header text-center bg-primary text-white fs-5 fw-bold">
-                {{ __('Login To MilestoneBadge') }}
+                {{ __('Login To Milestone Badge') }}
             </div>
 
             <div class="card-body p-4">

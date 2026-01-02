@@ -570,7 +570,7 @@
                     <i class="bi bi-tags"></i> <span class="nav-text">Categories</span>
                 </a>
             </li> --}}
-            @role('Administrator')
+            {{-- @role('Administrator') --}}
 
 
             <li class="nav-item">
@@ -578,7 +578,7 @@
                     <i class="bi bi-tags"></i> <span class="nav-text">Users</span>
                 </a>
             </li>
-            @endrole
+            {{-- @endrole --}}
             <li class="nav-item mt-5">
                 <a class="nav-link text-warning" href="{{ route('logout') }}"
                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

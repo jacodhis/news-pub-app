@@ -13,11 +13,11 @@
     <div class="card-header d-flex justify-content-between align-items-center">
         <h5 class="mb-0">All Users</h5>
 
-        @can('users.create')
+        {{-- @can('users.create') --}}
             <a href="{{ route('users.create') }}" class="btn btn-primary">
                 + Add User
             </a>
-        @endcan
+        {{-- @endcan --}}
     </div>
 
     <div class="card-body">
