@@ -846,6 +846,7 @@
                                                 </h3>
                                             </div>
                                             <div id="comp-mgaulg6n" class="MazNVa comp-mgaulg6n wixui-image rYiAuL">
+                                                @if($feauturedEdition)
                                                 <a
                                                     data-testid="linkElement"
                                                     href="{{ Storage::url($feauturedEdition->pdf_path) }}"
@@ -866,8 +867,10 @@
                                                         width="231"
                                                         height="347"
                                                 /></a>
+                                                @endif
                                             </div>
                                             <div id="comp-m2p5jmbp" class="MazNVa comp-m2p5jmbp wixui-image rYiAuL">
+                                                @if($latestEdition)
                                                 <a
                                                     data-testid="linkElement"
                                                     href="{{ Storage::url($latestEdition->pdf_path) }}"
@@ -881,13 +884,14 @@
                                                              {{ Storage::url($latestEdition->thumbnail_path) }} 2x
                                                         "
                                                         id="img_comp-m2p5jmbp"
-                                                        src="https://static.wixstatic.com/media/287178_226b4526260547e0aa522a41d6511b0d~mv2.jpg/v1/crop/x_11,y_0,w_1455,h_2185/fill/w_231,h_347,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/224.jpg"
+                                                        src="{{ Storage::url($latestEdition->thumbnail_path) }}"
                                                         alt="224.jpg"
                                                         style="object-fit: cover"
                                                         class="BI8PVQ Tj01hh"
                                                         width="231"
                                                         height="347"
                                                 /></a>
+                                                @endif
                                             </div>
                                             <div
                                                 id="comp-l0ebtekb"
