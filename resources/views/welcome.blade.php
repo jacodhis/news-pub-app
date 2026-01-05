@@ -286,7 +286,7 @@
                                                                 data-bg-effect-name=""
                                                                 data-has-ssr-src="true"
                                                             >
-                                                                {{-- <img
+                                                                <img
                                                                     src="https://static.wixstatic.com/media/287178_568cbbdf784545d2af9a0ad31fd99c3c~mv2.jpg/v1/fill/w_76,h_95,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/287178_568cbbdf784545d2af9a0ad31fd99c3c~mv2.jpg"
                                                                     alt="Mars_edited.jpg"
                                                                     style="
@@ -297,8 +297,8 @@
                                                                     "
                                                                     width="980"
                                                                     height="633"
-                                                                /> --}}
-                                                                <img
+                                                                />
+                                                                {{-- <img
                                                                     src="https://www.naxlex.com/assets/images/hero.png"
                                                                     alt="Mars_edited.jpg"
                                                                     style="
@@ -311,7 +311,7 @@
                                                                     height="633"
                                                                 />
 
-                                                            </wow-image>
+                                                            </wow-image> --}}
                                                         </div>
                                                     </div>
                                                     <div
