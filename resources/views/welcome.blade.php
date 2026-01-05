@@ -241,7 +241,7 @@
 
 <div id="SITE_CONTAINER">
     <div id="main_MF" class="main_MF">
-        <div id="site-root" class="site-root">
+        <div id="site-root" class="site-roost">
             <div id="masterPage" class="mesh-layout masterPage css-editing-scope">
                 @include('pages.header')
                 <main id="PAGES_CONTAINER" class="PAGES_CONTAINER" tabindex="-1" data-main-content="true">
@@ -388,7 +388,7 @@
                                                                     style="font-size: 22px; text-align: right"
                                                                 >
                                                                     <a
-                                                                        href="{{ Storage::url($latestEdition->pdf_path ?? "#")}}"
+                                                                    href="{{ optional($latestEdition)->pdf_path ? Storage::url($latestEdition->pdf_path) : '#' }}"
                                                                         target="_blank"
                                                                         class="wixui-rich-text__text"
                                                                         ><span
@@ -419,7 +419,7 @@
                                                                     style="font-size: 22px; text-align: right"
                                                                 >
                                                                     <a
-                                                                        href="{{ Storage::url($feauturedEdition->pdf_path) ?? "#"}}"
+                                                                     href="{{ optional($feauturedEdition)->pdf_path ? Storage::url($feauturedEdition->pdf_path) : '#' }}"
                                                                         target="_blank"
                                                                         class="wixui-rich-text__text"
                                                                         ><span

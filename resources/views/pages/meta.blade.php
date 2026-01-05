@@ -4124,6 +4124,7 @@
         --boxShadowToggleOn-shd: none;
         --backdrop-filter: none;
     }
+
     #SITE_HEADER {
         left: 0;
         margin-left: 0;
