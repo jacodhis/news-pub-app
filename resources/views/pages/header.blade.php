@@ -1,4 +1,5 @@
-<header id="SITE_HEADER" class="xU8fqS SITE_HEADER wixui-header" tabindex="-1">
+<header id="SITE_HEADER" class="xU8fqS SITE_HEADER wixui-hea
+der" tabindex="-1">
     <div class="_C0cVf"><div class="_4XcTfy" data-testid="screenWidthContainerBg"></div></div>
     <div class="U4Bvut">
         <div class="G5K6X8"><div class="gUbusX" data-testid="screenWidthContainerBgCenter"></div></div>
@@ -40,199 +41,6 @@
                         @endforeach
                     </ul>
 
-
-
-                        </ul>
-                        {{-- <ul class="mpGTIt" aria-label="Social Bar">
-                            <li id="dataItem-l0b7qq9j-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="http://wa.me/27738056068"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="Whatsapp"
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_f2ffb02bc607453abfd2d2389e6e1fa4~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f2ffb02bc607453abfd2d2389e6e1fa4~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_f2ffb02bc607453abfd2d2389e6e1fa4~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f2ffb02bc607453abfd2d2389e6e1fa4~mv2.png 2x
-                                        "
-                                        id="img_0_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_f2ffb02bc607453abfd2d2389e6e1fa4~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f2ffb02bc607453abfd2d2389e6e1fa4~mv2.png"
-                                        alt="Whatsapp"
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li>
-                            <li id="dataItem-lpcsh228-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://t.me/continentnews"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="Telegram  "
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_d48b7cc7f4244e918f2430aedd61a6c1~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_d48b7cc7f4244e918f2430aedd61a6c1~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_d48b7cc7f4244e918f2430aedd61a6c1~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_d48b7cc7f4244e918f2430aedd61a6c1~mv2.png 2x
-                                        "
-                                        id="img_1_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_d48b7cc7f4244e918f2430aedd61a6c1~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_d48b7cc7f4244e918f2430aedd61a6c1~mv2.png"
-                                        alt="Telegram  "
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li>
-                            <li id="dataItem-l0b7kk9x2-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://twitter.com/thecontinent_"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="X     "
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_923d540bee594407b17f142805a44a15~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_923d540bee594407b17f142805a44a15~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_923d540bee594407b17f142805a44a15~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_923d540bee594407b17f142805a44a15~mv2.png 2x
-                                        "
-                                        id="img_2_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_923d540bee594407b17f142805a44a15~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_923d540bee594407b17f142805a44a15~mv2.png"
-                                        alt="X     "
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li>
-                            <li id="dataItem-l7rg8iuy-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://www.facebook.com/TheContinentNews"
-                                    target="_blank"
-                                    class="oRtuWN"
-                                    aria-label="Facebook"
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_1f7ed8bc7b004201970df69f9eeda689~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_1f7ed8bc7b004201970df69f9eeda689~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_1f7ed8bc7b004201970df69f9eeda689~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_1f7ed8bc7b004201970df69f9eeda689~mv2.png 2x
-                                        "
-                                        id="img_3_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_1f7ed8bc7b004201970df69f9eeda689~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_1f7ed8bc7b004201970df69f9eeda689~mv2.png"
-                                        alt="Facebook"
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li>
-                            <li id="dataItem-l0b7kk9r1-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://www.instagram.com/thecontinent.africa"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="Instagram"
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png 2x
-                                        "
-                                        id="img_4_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png"
-                                        alt="Instagram"
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li> --}}
-                            {{-- <li id="dataItem-l0b7kk9x4-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://www.linkedin.com/company/the-continent-news/"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="LinkedIn"
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_a06d85fa94d64ef68680321f5a043a8c~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_a06d85fa94d64ef68680321f5a043a8c~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_a06d85fa94d64ef68680321f5a043a8c~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_a06d85fa94d64ef68680321f5a043a8c~mv2.png 2x
-                                        "
-                                        id="img_5_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_a06d85fa94d64ef68680321f5a043a8c~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_a06d85fa94d64ef68680321f5a043a8c~mv2.png"
-                                        alt="LinkedIn"
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li>
-                            <li id="dataItem-lpcsh229-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://www.reddit.com/user/TheContinentAfrica"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="Reddit  "
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_1b825ed041384249b8d50464cf9de627~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_1b825ed041384249b8d50464cf9de627~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_1b825ed041384249b8d50464cf9de627~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_1b825ed041384249b8d50464cf9de627~mv2.png 2x
-                                        "
-                                        id="img_6_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_1b825ed041384249b8d50464cf9de627~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_1b825ed041384249b8d50464cf9de627~mv2.png"
-                                        alt="Reddit  "
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li>
-                            <li id="dataItem-m052oisx-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://www.threads.net/@thecontinent.africa"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="Threads     "
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_b13842373314434394f5ce5ccc841325~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b13842373314434394f5ce5ccc841325~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_b13842373314434394f5ce5ccc841325~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b13842373314434394f5ce5ccc841325~mv2.png 2x
-                                        "
-                                        id="img_7_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_b13842373314434394f5ce5ccc841325~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b13842373314434394f5ce5ccc841325~mv2.png"
-                                        alt="Threads     "
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li>
-                            <li id="dataItem-m052oisy-comp-l0b7kk91" class="O6KwRn">
-                                <a
-                                    data-testid="linkElement"
-                                    href="https://continent.substack.com/feed"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                    class="oRtuWN"
-                                    aria-label="RSS"
-                                    ><img
-                                        sizes="undefinedpx"
-                                        srcset="
-                                            https://static.wixstatic.com/media/11062b_7570922ea57044fab9a46fbbfaada28e~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_7570922ea57044fab9a46fbbfaada28e~mv2.png 1x,
-                                            https://static.wixstatic.com/media/11062b_7570922ea57044fab9a46fbbfaada28e~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_7570922ea57044fab9a46fbbfaada28e~mv2.png 2x
-                                        "
-                                        id="img_8_comp-l0b7kk91"
-                                        src="https://static.wixstatic.com/media/11062b_7570922ea57044fab9a46fbbfaada28e~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_7570922ea57044fab9a46fbbfaada28e~mv2.png"
-                                        alt="RSS"
-                                        style="object-fit: cover"
-                                        class="YaS0jR Tj01hh"
-                                /></a>
-                            </li> --}}
-                        {{-- </ul> --}}
                     </div>
                     <wix-dropdown-menu
                         id="comp-irys4v5c"
@@ -349,32 +157,16 @@
                         </nav>
                     </wix-dropdown-menu>
                     <div id="comp-l09ic7mg" class="MazNVa comp-l09ic7mg wixui-image rYiAuL">
-                        <a data-testid="linkElement" href="{{ route('welcome') }}" target="_self" class="j7pOnl"
-                            >
-                            {{-- <img
-                                fetchpriority="high"
-                                sizes="520px"
-                                srcset="
-                                    https://static.wixstatic.com/media/287178_faede996e72a411ea997358493c96c1e~mv2.webp/v1/fill/w_520,h_81,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/72db5a46-d616-439f-8579-1efaa0b6bb02_5807x1441.webp   1x,
-                                    https://static.wixstatic.com/media/287178_faede996e72a411ea997358493c96c1e~mv2.webp/v1/fill/w_1040,h_162,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/72db5a46-d616-439f-8579-1efaa0b6bb02_5807x1441.webp 2x
-                                "
-                                id="img_comp-l09ic7mg"
-                                src="https://static.wixstatic.com/media/287178_faede996e72a411ea997358493c96c1e~mv2.webp/v1/fill/w_520,h_81,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/72db5a46-d616-439f-8579-1efaa0b6bb02_5807x1441.webp"
-                                alt="72db5a46-d616-439f-8579-1efaa0b6bb02_5807x1441.webp"
-                                style="object-fit: cover"
-                                class="BI8PVQ Tj01hh"
-                                width="520"
-                                height="81"
-                        /> --}}
+                        <a data-testid="linkElement" href="{{ route('welcome') }}" target="_self" class="j7pOnl">
                         <img
                                 fetchpriority="high"
                                 sizes="520px"
                                 srcset="
-                                    {{ asset('taifa-forward.jpeg') }} 1x,
-                                    {{ asset('taifa-forward.jpeg') }} 2x
+                                    {{ asset('milestone-badge.jpeg') }} 1x,
+                                    {{ asset('milestone-badge.jpeg') }} 2x
                                 "
                                 id="img_comp-l09ic7mg"
-                                src="{{ asset('taifa-forward.jpeg') }}"
+                                src="{{ asset('milestone-badge.jpeg') }}"
                                 alt="72db5a46-d616-439f-8579-1efaa0b6bb02_5807x1441.webp"
                                 style="object-fit: cover"
                                 class="BI8PVQ Tj01hh"

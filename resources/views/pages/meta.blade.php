@@ -2967,11 +2967,11 @@
         overflow: hidden !important;
     }
 </style>
-<title>Subscribe | The Continent</title>
-<meta name="description" content="Subscribing to quality African journalism is easy and free. " />
+<title>Milestone Badge | Kenyan Leaders’ Development Record</title>
+<meta name="description" content="Milestone Badge documents completed and verifiable development projects and public welfare programmes delivered by Kenyan leaders. No promises. No pledges. Just the record." />
 <link rel="canonical" href="https://www.thecontinent.org/subscribe" />
 <meta property="og:title" content="Subscribe | The Continent" />
-<meta property="og:description" content="Subscribing to quality African journalism is easy and free. " />
+<meta property="og:description" content="Milestone Badge documents completed and verifiable development projects and public welfare programmes delivered by Kenyan leaders. No promises. No pledges. Just the record." />
 <meta
     property="og:image"
     content="https://static.wixstatic.com/media/287178_75c894745c1a4b8f8bfd53854e1f1081~mv2.png/v1/fill/w_941,h_531,al_c/287178_75c894745c1a4b8f8bfd53854e1f1081~mv2.png"
@@ -2991,7 +2991,7 @@
 <meta property="fb:admins" content="TheContinentNews" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Subscribe | The Continent" />
-<meta name="twitter:description" content="Subscribing to quality African journalism is easy and free. " />
+<meta name="twitter:description" content="Milestone Badge documents completed and verifiable development projects and public welfare programmes delivered by Kenyan leaders. No promises. No pledges. Just the record." />
 <meta
     name="twitter:image"
     content="https://static.wixstatic.com/media/287178_75c894745c1a4b8f8bfd53854e1f1081~mv2.png/v1/fill/w_941,h_531,al_c/287178_75c894745c1a4b8f8bfd53854e1f1081~mv2.png"
