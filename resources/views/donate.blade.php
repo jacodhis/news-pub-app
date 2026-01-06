@@ -586,7 +586,7 @@
                                                                                                         /* font-weight: bold; */
                                                                                                     "
                                                                                                     class="wixui-rich-text__text"
-                                                                                                    >By supporting Taifa Forward, you help:</span
+                                                                                                    >By supporting Milestone Badge, you help:</span
                                                                                                 ></span
                                                                                             >
                                                                                         </p>

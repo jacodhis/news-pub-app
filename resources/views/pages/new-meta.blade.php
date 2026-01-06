@@ -66,7 +66,7 @@
         }
 
         .header-main {
-            padding: 15px 0;
+            padding: 0px 0;
         }
 
         .header-container {
@@ -215,7 +215,7 @@
 
         .nav-mobile .nav-menu a {
             font-size: 18px;
-            padding: 10px 0;
+            padding: 5px 0;
             display: block;
             width: 100%;
             text-align: center;
@@ -431,7 +431,7 @@
             }
 
             .nav-mobile {
-                top: 68px;
+                top: 40px;
             }
 
             .edition-header {

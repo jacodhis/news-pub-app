@@ -9,12 +9,12 @@
         .archives-page {
             padding-top: 140px;
             padding-bottom: 80px;
-            background-color: #0a0a0a;
+            background-color: #fff;
             min-height: 100vh;
         }
 
         .archives-container {
-            max-width: 1400px;
+            max-width: 1000px; /* Changed from 1400px to 1000px */
             margin: 0 auto;
             padding: 0 20px;
         }
@@ -42,14 +42,15 @@
             line-height: 1.6;
         }
 
+        /* Updated Archives Grid for 3 columns */
         .archives-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns */
+            gap: 20px; /* Reduced from 30px to 20px */
             padding: 20px 0;
         }
 
-        /* Archive Card Styles */
+        /* Archive Card Styles - Updated for image-only cards */
         .archive-card {
             background-color: rgba(255, 255, 255, 0.05);
             border-radius: 12px;
@@ -57,18 +58,21 @@
             transition: all 0.3s ease;
             border: 1px solid rgba(255, 255, 255, 0.1);
             height: 100%;
-            display: flex;
-            flex-direction: column;
+            /* aspect-ratio: 3/4;  */
+            position: relative;
+            cursor: pointer;
         }
 
         .archive-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
             border-color: rgba(248, 195, 0, 0.3);
         }
 
+        /* Updated Archive Image to fill entire card */
         .archive-image {
-            height: 400px;
+            height: 100%; /* Now takes 100% of the card height */
+            width: 100%;
             overflow: hidden;
             position: relative;
         }
@@ -84,88 +88,37 @@
             transform: scale(1.05);
         }
 
+        /* Updated Overlay for better visual effect */
         .archive-overlay {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.8) 100%);
-            opacity: 0;
+            background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.9) 100%);
+            opacity: 0.7;
             transition: opacity 0.3s ease;
         }
 
         .archive-card:hover .archive-overlay {
-            opacity: 1;
+            opacity: 0.85;
         }
 
-        .archive-content {
-            padding: 25px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .archive-title {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #fff;
-            margin-bottom: 10px;
-            line-height: 1.4;
-        }
-
-        .archive-date {
-            font-size: 0.9rem;
-            color: #f8c300;
-            margin-bottom: 15px;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-        }
-
-        .archive-date i {
-            margin-right: 8px;
-            font-size: 0.9rem;
-        }
-
-        .archive-description {
-            font-size: 0.95rem;
-            color: #aaa;
-            line-height: 1.6;
-            margin-bottom: 20px;
-            flex-grow: 1;
-        }
-
-        .archive-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f8c300;
-            color: #000;
-            font-weight: 600;
-            padding: 12px 25px;
-            border-radius: 30px;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            transition: all 0.3s ease;
-            text-align: center;
+        /* Optional: Add a subtle zoom effect on the overlay */
+        .archive-overlay::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            font-size: 0.9rem;
+            height: 100%;
+            background: rgba(248, 195, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.3s ease;
         }
 
-        .archive-btn:hover {
-            background-color: #fff;
-            transform: translateY(-3px);
-            box-shadow: 0 8px 15px rgba(248, 195, 0, 0.3);
-        }
-
-        .archive-btn i {
-            margin-left: 8px;
-            transition: transform 0.3s ease;
-        }
-
-        .archive-btn:hover i {
-            transform: translateX(5px);
+        .archive-card:hover .archive-overlay::after {
+            opacity: 1;
         }
 
         /* Empty State */
@@ -213,30 +166,21 @@
             box-shadow: 0 10px 20px rgba(248, 195, 0, 0.3);
         }
 
-        /* Responsive Styles */
-        @media (max-width: 1200px) {
-            .archives-grid {
-                grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-                gap: 25px;
+        /* Responsive Styles - Updated for 1000px container */
+        @media (max-width: 1100px) {
+            .archives-container {
+                max-width: 900px;
             }
 
-            .archive-image {
-                height: 350px;
+            .archives-grid {
+                gap: 18px; /* Slightly reduced gap */
             }
         }
 
-        @media (max-width: 992px) {
+        @media (max-width: 1024px) {
             .archives-grid {
-                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
                 gap: 20px;
-            }
-
-            .archives-title {
-                font-size: 2.4rem;
-            }
-
-            .archive-image {
-                height: 320px;
             }
         }
 
@@ -255,20 +199,14 @@
             }
 
             .archives-grid {
-                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                grid-template-columns: 1fr; /* 1 column on mobile */
                 gap: 20px;
+                max-width: 500px;
+                margin: 0 auto;
             }
 
-            .archive-image {
-                height: 300px;
-            }
-
-            .archive-content {
-                padding: 20px;
-            }
-
-            .archive-title {
-                font-size: 1.2rem;
+            .archive-card {
+                aspect-ratio: 3/4; /* Maintain rectangular shape */
             }
         }
 
@@ -287,25 +225,7 @@
             }
 
             .archives-grid {
-                grid-template-columns: 1fr;
                 gap: 20px;
-            }
-
-            .archive-image {
-                height: 280px;
-            }
-
-            .archive-content {
-                padding: 18px;
-            }
-
-            .archive-title {
-                font-size: 1.1rem;
-            }
-
-            .archive-btn {
-                padding: 10px 20px;
-                font-size: 0.85rem;
             }
         }
 
@@ -369,45 +289,24 @@
     <main class="archives-page">
         <div class="archives-container">
             <!-- Page Header -->
-            <div class="archives-header">
-                <h1 class="archives-title">Archive Collection</h1>
-                <p class="archives-subtitle">
-                    Explore our collection of past editions documenting completed, verifiable development projects, reforms, and public welfare programmes.
-                </p>
-            </div>
+
 
             <!-- Archives Grid -->
             @if(count($artciles) > 0)
                 <div class="archives-grid">
                     @foreach($artciles as $article)
-                        <div class="archive-card">
-                            <div class="archive-image">
-                                <img src="{{ Storage::url($article->thumbnail_path) }}" alt="{{ $article->title ?? 'Newspaper Edition' }}">
-                                <div class="archive-overlay"></div>
-                            </div>
-                            <div class="archive-content">
-                                <h3 class="archive-title">
-                                    {{ $article->title ?? 'Newspaper Edition' }}
-                                </h3>
-
-                                @if($article->created_at || $article->published_date)
-                                    <div class="archive-date">
-                                        <i class="far fa-calendar-alt"></i>
-                                        {{ $article->created_at ? $article->created_at->format('F d, Y') : ($article->published_date ?? '') }}
-                                    </div>
-                                @endif
-
-                                @if($article->description || $article->excerpt)
-                                    <p class="archive-description">
-                                        {{ Str::limit($article->description ?? $article->excerpt ?? 'Read this edition to learn more about development projects and reforms.', 120) }}
-                                    </p>
-                                @endif
-
-                                <a href="{{ Storage::url($article->pdf_path) }}" target="_blank" class="archive-btn">
-                                    Read Edition <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
+                    <a
+                        href="{{ Storage::url($article->pdf_path) }}"
+                        target="_blank"
+                        class="archive-card-link"
+                    >
+                                        <div class="archive-card">
+                                            <div class="archive-image">
+                                                <img src="{{ Storage::url($article->thumbnail_path) }}" alt="{{ $article->title ?? 'Newspaper Edition' }}">
+                                                <div class="archive-overlay"></div>
+                                            </div>
+                                        </div>
+                    </a>
                     @endforeach
                 </div>
 

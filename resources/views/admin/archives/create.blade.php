@@ -103,7 +103,7 @@
                             <div class="file-upload-area" id="thumbnailUploadArea">
                                 <i class="bi bi-image"></i>
                                 <p>Upload thumbnail image (Optional)</p>
-                                <p class="text-muted small">Recommended: 300x400px, JPG/PNG</p>
+                                {{-- <p class="text-muted small">Recommended: 300x400px, JPG/PNG</p> --}}
                                 <input type="file" id="thumbnail" name="thumbnail"
                                        accept="image/*" class="d-none">
                                 <div id="thumbnailPreview" class="mt-3" style="display: none;">
@@ -267,7 +267,7 @@
             }
 
             if (file.size > 5 * 1024 * 1024) { // 5MB limit
-                alert('Image size exceeds 5MB limit.');
+                alert('Image size exceeds 5MB limitss.');
                 this.value = '';
                 return;
             }

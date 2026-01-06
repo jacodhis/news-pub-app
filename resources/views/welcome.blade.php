@@ -18,7 +18,7 @@
         <div class="hero-content">
 
             <p class="hero-description">
-                Taifa Forward is an innovative public-interest newspaper dedicated to documenting completed, verifiable development projects, reforms, and public welfare programmes delivered by Kenyan leaders.
+                Milestone Badge is an innovative public-interest newspaper dedicated to documenting completed, verifiable development projects, reforms, and public welfare programmes delivered by Kenyan leaders.
             </p>
 
             <div class="editions-container">

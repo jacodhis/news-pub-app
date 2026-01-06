@@ -43,29 +43,27 @@ Route::post('contact-us',function(Request $request){
      $validated = $request->validate(
     [
         'name' => 'required',
-        'company_email' => 'required|email',
         'email' => 'required|email',
-        'numeric_field' => 'required|digits_between:8,15',
+        'phone' => 'required|digits_between:8,15',
         'message' => 'required',
     ],
     [
-            'company_email.required' => 'Company email is required',
-            'company_email.email' => 'Enter a valid company email',
-
+            'name' => 'Enter a valid company email',
             'email.required' => 'Email is required',
             'email.email' => 'Enter a valid email address',
 
-            'numeric_field.required' => 'Phone number is required',
-            'numeric_field.min' => 'Phone number must be at least 8 digits',
+            'phone.required' => 'Phone number is required',
+            'phone.min' => 'Phone number must be at least 8 digits',
 
             'message.required' => 'Please write your enquiry',
         ]
     );
+
     if($contact = Contact::create([
             'name' => $request->name,
-            'company_email' => $request->company_email,
             'email' => $request->email,
-            'numeric_field' => $request->numeric_field,
+            'company_email' =>$request->email,
+            'numeric_field' => $request->phone,
             'message' => $request->message,
         ])){
             return redirect()->back()->with('success','Thank you for contacting Us.');

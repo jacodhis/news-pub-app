@@ -900,11 +900,11 @@
                 return;
             }
 
-            if (file.size > 5 * 1024 * 1024) { // 5MB limit
-                alert('Image size exceeds 5MB limit.');
-                this.value = '';
-                return;
-            }
+            // if (file.size > 5 * 1024 * 1024) { // 5MB limit
+            //     alert('Image size exceeds 5MB limit.');
+            //     this.value = '';
+            //     return;
+            // }
 
             const reader = new FileReader();
             reader.onload = function(e) {

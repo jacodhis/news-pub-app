@@ -193,7 +193,7 @@
                                                                                         ><span
                                                                                             style="font-size: 20px"
                                                                                             class="wixui-rich-text__text"
-                                                                                            >Save Taifa Forward’s number
+                                                                                            >Save Milestone Badge number
                                                                                             <a
                                                                                                 href="https://wa.me/27738056068?text=SUBSCRIBE"
                                                                                                 target="_blank"
@@ -289,7 +289,7 @@
                                                                                                     style="font-weight: bold"
                                                                                                     class="wixui-rich-text__text"
                                                                                                     ><a
-                                                                                                        href="https://t.me/continentnews"
+                                                                                                        href="#"
                                                                                                         target="_blank"
                                                                                                         rel="noreferrer noopener"
                                                                                                         class="wixui-rich-text__text"

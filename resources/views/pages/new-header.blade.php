@@ -37,7 +37,7 @@
                 <!-- Desktop Navigation -->
                 <nav class="nav-desktop">
                     <!-- Navigation Menu (Right side) -->
-                    <ul class="nav-menu" style="color: black;">
+                    <ul class="nav-menu" style="color: #F9AB43;">
                         <li><a href="{{ route('about') }}">About</a></li>
                         <li><a href="{{ route('archives.index') }}">Archive</a></li>
                         <li><a href="{{ route('subscribe') }}">Subscribe</a></li>
@@ -73,7 +73,7 @@
                 </a>
             </div>
 
-            <ul class="nav-menu">
+            <ul class="nav-menu" style="color: #F9AB43;">
                 <li><a href="{{ route('about') }}">About</a></li>
                 <li><a href="{{ route('archives.index') }}">Archive</a></li>
                 <li><a href="{{ route('subscribe') }}">Subscribe</a></li>

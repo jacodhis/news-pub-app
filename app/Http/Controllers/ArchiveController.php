@@ -62,11 +62,8 @@ class ArchiveController extends Controller
             'title' => 'required|string|max:255',
             'publication_date' => 'required|date',
             // 'category_id' => 'nullable|exists:categories,id',
-            'pdf_file' => 'required|file|mimes:pdf|max:102400', // 100MB
-            'thumbnail' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:5120', // 5MB
-            // 'is_published' => 'boolean',
-            // 'is_featured' => 'boolean',
-            // 'is_archived' => 'boolean',
+            'pdf_file' => 'required|file|mimes:pdf',
+            'thumbnail' => 'nullable|image|mimes:jpeg,png,jpg,gif',
         ]);
         // Handle PDF upload
         if ($request->hasFile('pdf_file')) {
