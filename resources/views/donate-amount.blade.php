@@ -239,7 +239,7 @@
         <link rel="preload" href="https://www.googletagmanager.com/gtm.js?id=GTM-MXJ282KS" as="script" />
         <link rel="preload" href="https://www.google.com/recaptcha/api.js" as="script" />
         <meta name="next-size-adjust" content="" />
-        <title>Donate | Support The Continent</title>
+        <title>Donate | Support Milestone Badge</title>
         <meta
             name="description"
             content="Over five years and more than 200 editions, The Continent has reported on nearly every country in Africa, as well as on the rest of the world.
@@ -327,11 +327,19 @@ Thank you for your support."
                                 href="/"
                                 data-sentry-element="Link"
                                 data-sentry-source-file="mobileNavBar.tsx"
-                                ><span class="sr-only">GivenGain</span
-                                ><img
+                                ><span class="sr-only">MilestoneBadge</span
+                                >
+                                {{-- <img
                                     class="block h-12 w-auto sm:h-16"
                                     src="https://media.givengain.com/apps/fundraiser/_next/static/media/logo.2a7ffdb4.svg"
-                                    alt="GivenGain" /></a
+                                    alt="GivenGain" /> --}}
+                                     <img
+                                class="block h-12 w-auto sm:h-16"
+                                src="{{asset('support-milestone-svg.svg')}}"
+                                alt="MilestoneBadge"
+                                style="background: #fff;"
+                                />
+                                </a
                             ><button
                                 class="group relative z-0 box-border inline-flex shrink-0 cursor-pointer select-none appearance-none items-center justify-center overflow-hidden whitespace-nowrap font-semibold subpixel-antialiased outline-none transition focus-visible:z-10 focus-visible:ring-2 focus-visible:ring-offset-2 active:scale-[0.97] data-[pressed=true]:scale-[0.97] motion-reduce:transition-none text-lg rounded-full gap-0 p-0 hover:bg-white hover:text-brand size-16 min-w-16 bg-transparent text-white focus:bg-transparent focus:text-white active:bg-transparent active:text-white"
                                 aria-pressed="false"
@@ -354,46 +362,27 @@ Thank you for your support."
                             href="/"
                             data-sentry-element="Link"
                             data-sentry-source-file="desktopNavBar.tsx"
-                            ><span class="sr-only">GivenGain</span
-                            ><img
+                            ><span class="sr-only">MilestoneBadge</span
+                            >
+
+
+                            <img
                                 class="block h-12 w-auto sm:h-16"
-                                src="https://media.givengain.com/apps/fundraiser/_next/static/media/logo.2a7ffdb4.svg"
-                                alt="GivenGain" /></a
+                                src="{{asset('support-milestone-svg.svg')}}"
+                                alt="MilestoneBadge"
+                                style="background: #fff;"
+                                />
+
+                           </a
                         ><a
                             class="cursor-pointer decoration-blue decoration-2 underline-offset-4 hover:decoration-brand no-underline hover:opacity-1 flex items-center gap-2 rounded-xs text-base font-bold text-white outline-0 hover:text-lightBlue focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-4 focus-visible:ring-offset-brand"
                             data-sentry-element="Link"
                             data-sentry-source-file="desktopNavBar.tsx"
-                            href="/discover"
+                            href="{{ route('welcome') }}"
                             ><span class="icon-[heroicons-solid--magnifying-glass] size-6" aria-hidden="true"></span
                             >Explore</a
                         >
-                        <div class="ml-auto flex items-center gap-8">
-                            <a
-                                class="cursor-pointer decoration-blue decoration-2 underline-offset-4 hover:decoration-brand no-underline hover:opacity-1 flex items-center gap-2 rounded-xs text-base font-bold text-white outline-0 hover:text-lightBlue focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-4 focus-visible:ring-offset-brand"
-                                href="/signin"
-                                >Log in</a
-                            ><a
-                                class="cursor-pointer decoration-blue decoration-2 underline-offset-4 hover:decoration-brand no-underline hover:opacity-1 flex items-center gap-2 rounded-xs text-base font-bold text-white outline-0 hover:text-lightBlue focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-4 focus-visible:ring-offset-brand"
-                                href="/signup"
-                                >Sign up</a
-                            ><button
-                                class="flex size-10 items-center justify-center rounded-sm outline-0 ring-0 focus-visible:ring-2 focus-visible:ring-white"
-                                type="button"
-                                id="radix-_R_biqbrb_"
-                                aria-haspopup="menu"
-                                aria-expanded="false"
-                                data-state="closed"
-                                data-sentry-element="DropdownMenuTrigger"
-                                data-sentry-source-file="desktopNavBar.tsx"
-                            >
-                                <span class="sr-only">Open extra menu</span
-                                ><img
-                                    src="https://media.givengain.com/apps/fundraiser/_next/static/media/menu-open.714117c9.svg"
-                                    alt=""
-                                    class="w-full"
-                                />
-                            </button>
-                        </div>
+
                     </div>
                 </nav>
             </header>
@@ -403,26 +392,18 @@ Thank you for your support."
                         <div class="relative mx-auto max-w-5xl p-4">
                             <div class="flex items-center justify-center gap-x-4">
                                 <div class="h-12 w-12 shrink-0 overflow-hidden rounded-full sm:h-16 sm:w-16">
-                                    <div
+                                    {{-- <div
                                         class="h-full w-full bg-cover bg-center bg-no-repeat"
                                         style="
                                             background-image: url(https://media.givengain.com/eyJrZXkiOiJjYXVzZS9wcm9maWxlL09OQ1hRSkZGWlIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0ODAsImhlaWdodCI6NDgwLCJmaXQiOiJjb3ZlciJ9LCJqcGVnIjp7InF1YWxpdHkiOjkwfX19);
                                         "
-                                    ></div>
+                                    ></div> --}}
                                     <span class="sr-only">Support The Continent</span>
                                 </div>
                                 <div class="text-xs text-neutral">
-                                    <div>You are supporting</div>
+                                    <div>A GrayIQ Solutions Campaign</div>
                                     <div>
-                                        <a
-                                            class="cursor-pointer decoration-blue decoration-2 underline-offset-4 text-brand hover:text-brand hover:decoration-brand text-sm no-underline font-semibold"
-                                            href="/url/cc/28579"
-                                            >Support The Continent<!-- --> </a
-                                        ><br /><span>a campaign of</span><br /><a
-                                            class="cursor-pointer decoration-blue decoration-2 underline-offset-4 text-brand hover:text-brand hover:decoration-brand text-sm no-underline font-semibold"
-                                            href="/url/c/120526"
-                                            >All Protocol Observed</a
-                                        >
+                                        <span>Your contribution helps shine a light on leadership, <br>progress, and accountability.</span>
                                     </div>
                                 </div>
                             </div>
@@ -710,115 +691,28 @@ Thank you for your support."
                                                 data-sentry-component="SliderStrategy"
                                                 data-sentry-source-file="slider.tsx"
                                             >
-                                                <div class="flex items-center justify-center space-x-4">
+                                                {{-- <div class="flex items-center justify-center space-x-4">
                                                     <div
                                                         class="h-10 w-10 bg-contain bg-center bg-no-repeat"
                                                         style="
                                                             background-image: url(&#x27;https://media.givengain.com/apps/fundraiser/_next/static/media/heart.2dd0463e.svg&#x27;);
                                                         "
                                                     ></div>
-                                                    <div class="text-2xl font-medium text-secondary">
-                                                        We&#x27;re a non-profit too.
-                                                    </div>
+                                                </div> --}}
+                                                <div class="text-center text-sm font-medium">
+                                                  <br /><strong
+                                                        class="block"
+                                                        >By supporting Milestone Badge, you help keep leaders accountable, strengthen public understanding of real delivery, and place Kenya’s development record on a clear, trusted, and documented map.</strong
+                                                    >
                                                 </div>
                                                 <div class="text-center text-sm font-medium">
-                                                    We rely on your generosity to maintain and improve the platform for
-                                                    charities and fundraisers in over 100 countries.<br /><strong
+                                                  <br /><strong
                                                         class="block"
-                                                        >Supporting us includes covering the fees for the
-                                                        charity.</strong
+                                                        >Every donation, big or small, moves the nation’s story forward - transparently, truthfully, and with purpose.</strong
                                                     >
                                                 </div>
-                                                <div
-                                                    class="notranslate relative flex h-8 w-full select-none items-center pb-4"
-                                                    id="visual-slider"
-                                                >
-                                                    <div class="absolute z-0 flex w-full items-center justify-between">
-                                                        <div
-                                                            class="absolute z-0 w-full border-b-2 border-slate-900"
-                                                        ></div>
-                                                        <div
-                                                            class="relative block h-8 w-8 rounded-full border-2 border-slate-900 cursor-pointer bg-white z-10"
-                                                            data-sentry-component="SliderMark"
-                                                            data-sentry-source-file="slider.tsx"
-                                                        >
-                                                            <div
-                                                                class="absolute top-full w-full text-center font-medium text-slate-900 transition-opacity"
-                                                            >
-                                                                8<!-- -->%
-                                                            </div>
-                                                        </div>
-                                                        <div
-                                                            class="relative block rounded-full border-2 border-slate-900 cursor-pointer bg-white z-10 h-4 w-4"
-                                                            data-sentry-component="SliderMark"
-                                                            data-sentry-source-file="slider.tsx"
-                                                        >
-                                                            <div
-                                                                class="absolute top-full w-full text-center font-medium text-slate-900 transition-opacity"
-                                                            ></div>
-                                                        </div>
-                                                        <div
-                                                            class="relative block h-8 w-8 rounded-full border-2 border-slate-900 cursor-pointer bg-white z-10"
-                                                            data-sentry-component="SliderMark"
-                                                            data-sentry-source-file="slider.tsx"
-                                                        >
-                                                            <div
-                                                                class="absolute top-full w-full text-center font-medium text-slate-900 transition-opacity opacity-20"
-                                                            >
-                                                                15<!-- -->%
-                                                            </div>
-                                                        </div>
-                                                        <div
-                                                            class="relative block rounded-full border-2 border-slate-900 cursor-pointer bg-white z-10 h-4 w-4"
-                                                            data-sentry-component="SliderMark"
-                                                            data-sentry-source-file="slider.tsx"
-                                                        >
-                                                            <div
-                                                                class="absolute top-full w-full text-center font-medium text-slate-900 transition-opacity"
-                                                            ></div>
-                                                        </div>
-                                                        <div
-                                                            class="relative block h-8 w-8 rounded-full border-2 border-slate-900 cursor-pointer bg-white z-10"
-                                                            data-sentry-component="SliderMark"
-                                                            data-sentry-source-file="slider.tsx"
-                                                        >
-                                                            <div
-                                                                class="absolute top-full w-full text-center font-medium text-slate-900 transition-opacity"
-                                                            >
-                                                                20<!-- -->%
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="w-full px-4">
-                                                        <div
-                                                            style="left: 50%"
-                                                            class="rounded-full border-2 border-slate-900 relative z-10 block h-8 w-8 -translate-x-1/2 cursor-grab bg-teal-400"
-                                                        >
-                                                            <div class="absolute top-full w-full text-center font-bold">
-                                                                15<!-- -->%
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="flex justify-center"
-                                                    data-sentry-component="FeesCoveredInfo"
-                                                    data-sentry-source-file="slider.tsx"
-                                                >
-                                                    <div
-                                                        class="inline-block max-w-sm text-pretty rounded-lg bg-lightBlue px-4 py-1 text-center text-sm font-medium text-secondary"
-                                                    >
-                                                        Cover the fees for the charity and support the work of the
-                                                        GivenGain Foundation.
-                                                    </div>
-                                                </div>
-                                                <div class="flex justify-center">
-                                                    <button
-                                                        class="cursor-pointer underline decoration-blue decoration-2 underline-offset-4 text-black hover:text-brand hover:decoration-brand text-base font-normal"
-                                                    >
-                                                        Don&#x27;t cover the fees for the charity
-                                                    </button>
-                                                </div>
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -909,41 +803,16 @@ Thank you for your support."
                                             </button>
                                         </div>
                                     </div>
-                                    <div class="m-auto max-w-xl space-y-4 text-center text-sm text-gray-400">
-                                        When transferring donations to eligible charities, a nominal transfer fee per
-                                        batch is levied by the bank. The transfer fee cannot be covered by the donor.
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="mt-8 border-t border-t-slate-100">
-                        <div class="relative mx-auto max-w-5xl py-8 xl:px-8">
-                            <img
-                                class="mx-auto h-12"
-                                src="https://www.givengain.com/res-bs4/img/payment-security.svg"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                    <div class="my-8 border-t border-t-slate-100">
-                        <div class="relative mx-auto max-w-4xl py-8 xl:px-8">
-                            <div class="text-center text-slate-700">
-                                Your contribution is to the GivenGain Foundation Switzerland that processes donations
-                                and disburses funds to charities and organisations based on donor recommendations made
-                                through the GivenGain website. You&#x27;ll find your donation on your bank statement
-                                under the name of &quot;GivenGain&quot;.
-                            </div>
-                        </div>
-                    </div>
+
+
                 </div>
-                <!--$--><!--/$-->
             </div>
-            <iframe
-                class="h-[600px] w-full shrink-0 overflow-hidden"
-                data-sentry-component="FooterEmbed"
-                data-sentry-source-file="footerEmbed.tsx"
-            ></iframe>
+
         </div>
         <section
             aria-label="Notifications alt+T"
@@ -952,12 +821,7 @@ Thank you for your support."
             aria-relevant="additions text"
             aria-atomic="false"
         ></section>
-        {{-- <script
-            src="https://media.givengain.com/apps/fundraiser/_next/static/chunks/webpack-fcb869a5ebd40870.js"
-            id="_R_"
-            async=""
-        ></script> --}}
-        {{-- <script src="{{ asset('webpack1.js') }}"></script> --}}
+
         <script>
             (self.__next_f = self.__next_f || []).push([0]);
         </script>

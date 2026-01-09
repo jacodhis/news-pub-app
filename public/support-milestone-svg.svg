@@ -1,0 +1,11 @@
+<svg width="252" height="150" viewBox="0 0 252 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Support Milestone Badge">
+    <!-- Main text -->
+    <text x="126" y="70" text-anchor="middle" dominant-baseline="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#1F3C88">
+        Support Milestone
+    </text>
+
+    <!-- Sub text -->
+    <text x="126" y="95" text-anchor="middle" dominant-baseline="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#1F3C88" opacity="0.85">
+        Badge
+    </text>
+</svg>
