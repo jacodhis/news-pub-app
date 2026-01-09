@@ -105,11 +105,10 @@ class ArchiveController extends Controller
 
     // Add other methods: edit, update, destroy, togglePublish, toggleFeatured
 
-     public function destroy(string $id)
-    {
-        $category = Category::findOrFail($id);
-        $category->delete();
-        return redirect()->route('categories.index')->with('success', 'Category deleted successfully.');
+     public function destroy(string $id){
+        $archive = Archive::findOrFail($id);
+        $archive->delete();
+        return redirect()->route('archives.index')->with('success', 'Category deleted successfully.');
     }
 
     public function update(Request $request,$archiveId)
